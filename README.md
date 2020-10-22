@@ -17,7 +17,7 @@ data point or say featrues are independent of each other. Some of the Naive Baye
 
 -	#### Multinomial Naive Bayes: 
 which we used in this project. And this classifier is typically used for the document classification
--	#### Bernoulli Naive Bayes.
+-	#### Bernoulli Naive Bayes:
 This is used for binary classification in documents like a word occured or not in this document.
--	#### Gaussian Naive Bayes 
+-	#### Gaussian Naive Bayes: 
 This one is based on the conitinous distribution.
