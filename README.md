@@ -16,7 +16,7 @@ The Naive Bayes Classifiers is supervised learning algorithms that are base on t
 data point or say featrues are independent of each other. Some of the Naive Bayes Classifiers are:
 
 -	#### Multinomial Naive Bayes: 
-which we used in this project. And this classifier is typically used for the document classification
+The one which we used in this project. And this classifier is typically used for the document classification
 -	#### Bernoulli Naive Bayes:
 This is used for binary classification in documents like a word occured or not in this document.
 -	#### Gaussian Naive Bayes: 
