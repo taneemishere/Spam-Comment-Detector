@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.nav-link a{
+    float: right;
+}
+label{
+display: block;
+align-items: center;
+justify-content: center;
+}
+form{
+padding: 5em;
+margin-top: 5em;
+}
+.btn.btn-primary{
+    background: green;
+    margin-top: 2em;
+}
+.invert{
+    background-color: black;
+    filter: invert(1) hue-rotate(180deg);
+}
+
+/* pattern */
+body {
+
+  }
+  
+  .pattern {
+   
+  }
+  
+  
+  
+  .pat5 {
+    background-image: 
+      linear-gradient(20deg, black 60%, transparent 100.1%),
+      linear-gradient(
+      #38db61,
+      #38db61 6px,
+      black 6px,
+      black
+    );
+    background-size: 100%, 100% 12px;
+  }
+  .result{
+      padding: 1em;
+  }
+  a{
+    color: white;
+  }
