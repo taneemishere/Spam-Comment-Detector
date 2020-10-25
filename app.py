@@ -4,6 +4,7 @@ from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
+# TODO: 2. if todo 1 is not working then these lines for file opening and importing pickle is BEKAAAAR!
 # Opening the file
 file = open("NBC_Model_final.pkl", "rb")
 clf = pickle.load(file=file)
@@ -17,11 +18,11 @@ def predict():
         data = [comment]
         vectorizer_predict = my_training.vectorizer.transform(data).toarray()
 
-        # TODO:
-        #  this has to be checked after implementing the front whether is working not
-        # model_predict = my_training.clf.predict(vectorizer_predict)
+        model_predict = my_training.clf.predict(vectorizer_predict)
 
-        model_predict = clf.predict(vectorizer_predict)
+        # TODO:
+        #  1. this has to be checked after implementing the front whether is working not
+        # model_predict = clf.predict(vectorizer_predict)
         print(model_predict)
 
         if model_predict == 1:
